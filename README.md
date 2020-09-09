@@ -1,1 +1,3 @@
 # ask-fm-notifier
+
+his is a simple Notifier to tell you whenever you have something new on your Ask.fm account since askfm only provides notifications from phone not chrome or any browser :D :D :D It also has new feature of notifying you when friend of yours has answered a question or some sort on ask. later expected to also support notification of liking threads and also multiple friends so share if like it and tell your friends ;)
