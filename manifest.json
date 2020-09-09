@@ -1,0 +1,22 @@
+{
+  "update_url": "https://clients2.google.com/service/update2/crx",
+  
+    "name" : "Ask.Fm Notifier",
+    "version" : "1.264",
+    "description" : "Notify you when something new happens on ask.fm",
+    "permissions": ["tabs", "https://*.google.com/", "https://ask.fm/*","notifications","https://www.google-analytics.com/","storage"],
+    "icons": { "16": "assets/512x512.png", "48": "assets/512x512.png", "128": "assets/512x512.png" },
+    "browser_action": {
+      "default_icon": "assets/512x512.png",
+      "default_popup":"ask.html"
+    },
+    "content_security_policy": "script-src 'self' https://ssl.google-analytics.com; object-src 'self';",
+    "background": {
+      "page": "background.html",
+      "persistent": true
+    },
+    "manifest_version": 2,
+     "author": "Ahmed Mashhour",
+     "incognito": "spanning"  
+  }
+  
